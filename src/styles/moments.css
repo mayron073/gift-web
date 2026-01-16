@@ -1,6 +1,4 @@
-section {
-  text-align: center;
-}
+
 
 .moments-grid {
   display: flex;
@@ -46,7 +44,6 @@ section {
   section {
     display: grid;
     place-items: center;
-    text-align: center;
   }
 
   section h2 {
