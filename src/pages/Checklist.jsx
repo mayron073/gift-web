@@ -1,6 +1,7 @@
 import { useState } from "react"
 import "../styles/checklist.css"
 import Background from "../components/Background.jsx"
+import bg from "/AyC.jpg";
 
 export default function Checklist({
   tasks,
@@ -18,7 +19,7 @@ export default function Checklist({
 
   return (
     <>
-    <Background image="/AyC.jpg" />
+    <Background image= {bg} />
     <section className="checklist">
       <h2>Checklist</h2>
 

@@ -1,13 +1,14 @@
 import CalculatorSlider from "../study/components/CalculatorSlider.jsx";
 import KnowledgeSection from "../components/KnowledgeSection";
 import ExerciseLab from "../components/ExerciseLab.jsx";
-import Background from "../components/Background.jsx"
+import Background from "../components/Background.jsx";
+import bg from "/AyC.jpg";
 import "../styles/studys.css"
 
 export default function Study() {
   return (
     <>
-    <Background image="/AyC.jpg" />
+    <Background image={bg} />
     <section className="study">
       
       {/* Encabezado */}

@@ -1,11 +1,12 @@
 import "../styles/home.css"
 import {go} from "../data/go-go"
 import Background from "../components/Background.jsx"
+import bg from "/AyC.jpg";
 
 export default function Home() {
   return (
     <>
-    <Background image="/AyC.jpg" />
+    <Background image={bg} />
     <section className="home">
       <div>
         <h1>Este espacio es para ti</h1>

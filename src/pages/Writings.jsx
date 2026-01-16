@@ -1,6 +1,7 @@
 import { writings } from "../data/writings"
 import "../styles/writings.css"
 import Background from "../components/Background.jsx"
+import bg from "/AyC.jpg"
 
 import { useState } from "react"
 
@@ -9,7 +10,7 @@ export default function Writings() {
 
   return (
     <>
-    <Background image="/AyC.jpg" />
+    <Background image={bg} />
     <section className="writings-section">
       <h2>Inspirados en una belleza poderosa</h2>
       {activeId && (
