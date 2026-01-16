@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom"
+import { HashRouter, Routes, Route } from "react-router-dom"
 import Home from "./pages/Home"
 import Moments from "./pages/Moments"
 import Writings from "./pages/Writings"
@@ -14,7 +14,7 @@ const basename =
 export default function App() {
   const checklist = useChecklist()
   return (
-    <BrowserRouter basename={basename}>
+    <HashRouter basename={basename}>
       <Navbar />
 
       <main>
@@ -30,7 +30,7 @@ export default function App() {
           <Route path="/citas" element={<Quotes />} />
         </Routes>
       </main>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
