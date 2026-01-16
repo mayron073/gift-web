@@ -8,13 +8,11 @@ import Quotes from "./pages/Quotes"
 import Navbar from "./components/Navbar"
 import { useChecklist } from "./hooks/useChecklist.js"
 
-const basename =
-  import.meta.env.MODE === "production" ? "/gift-web" : "/"
-
 export default function App() {
   const checklist = useChecklist()
+
   return (
-    <HashRouter basename={basename}>
+    <>
       <Navbar />
 
       <main>
@@ -30,7 +28,7 @@ export default function App() {
           <Route path="/citas" element={<Quotes />} />
         </Routes>
       </main>
-    </HashRouter>
+    </>
   )
 }
 
