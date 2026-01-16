@@ -1,0 +1,42 @@
+.nav {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: rgba(11, 11, 11, 0.9);
+  backdrop-filter: blur(8px);
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
+  padding: 1rem;
+  border-bottom: 1px solid #1f1f1f;
+}
+
+.nav a {
+  color: var(--silver);
+  text-decoration: none;
+  font-size: 0.9rem;
+  position: relative;
+}
+
+.nav a::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 1px;
+  background: var(--silver);
+  left: 0;
+  bottom: -4px;
+  transition: width 0.3s ease;
+}
+
+.nav a:hover::after {
+  width: 100%;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .nav {
+    flex-wrap: wrap;
+    gap: 0.8rem;
+  }
+}

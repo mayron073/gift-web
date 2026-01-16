@@ -1,0 +1,57 @@
+.exercise-lab {
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
+
+.lab-actions {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.lab-actions button {
+  border-radius: 10px;
+  padding: 0.6rem 1.5rem;
+  background: linear-gradient(135deg, #aaa, #666);
+  border: none;
+  cursor: pointer;
+}
+
+.exercise-card p {
+    margin-bottom: 10px;
+}
+
+.exercise-card button {
+  border-radius: 8px;
+  padding: 7px 5px;
+  background: linear-gradient(135deg, #aaa, #666);
+  border: none;
+}
+
+.exercise-card {
+  margin-top: 2rem;
+  padding: 2rem;
+  background: rgba(0,0,0,0.65);
+  border-radius: 20px;
+  animation: fadeIn 0.4s ease;
+}
+
+.exercise-card input {
+  padding: 0.5rem;
+  background: #000;
+  border: 1px solid #333;
+  color: #cfcfcf;
+  border-radius: 8px;
+  width: 60%;
+  margin-right: 15px;
+}
+
+.ok {
+  color: #7CFF9B;
+}
+
+.fail {
+  color: #FF7C7C;
+}

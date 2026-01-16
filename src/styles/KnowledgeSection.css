@@ -1,0 +1,142 @@
+.knowledge {
+  max-width: 950px;
+  margin: auto;
+  padding: 0.5rem 1rem;
+}
+
+.knowledge h2 {
+  text-align: center;
+  margin-bottom: 3rem;
+  font-weight: 400;
+}
+
+/* Tema principal */
+.knowledge-topic {
+  margin-bottom: 3rem;
+}
+
+.topic-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  margin-bottom: 1rem;
+}
+
+.topic-icon {
+  font-size: 1.6rem;
+}
+
+.topic-header h3 {
+  font-weight: 400;
+  text-align: center;
+}
+
+/* Tarjeta */
+.knowledge-card {
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 18px;
+  padding: 1rem 1.5rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 0 20px rgba(255,255,255,0.06);
+  transition: transform 0.2s ease;
+}
+
+.knowledge-card:hover {
+  transform: translateY(-2px);
+}
+
+.knowledge-card summary {
+  cursor: pointer;
+  font-size: 1.05rem;
+  text-align: center;
+  letter-spacing: 0.05em;
+  list-style: none;
+}
+
+.knowledge-card summary::-webkit-details-marker {
+  display: none;
+}
+
+/* Contenido */
+.knowledge-body {
+  margin-top: 1rem;
+  animation: fadeIn 0.4s ease;
+}
+
+.definition {
+  font-style: italic;
+  opacity: 0.9;
+  color: var(--white);
+}
+
+.formulas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0.8rem 0;
+  justify-content: center;
+}
+
+.formulas code {
+  background: #111;
+  padding: 0.3rem 0.6rem;
+  border-radius: 10px;
+  font-size: 0.85rem;
+  border: 1px solid #333;
+}
+
+.notes {
+  margin-top: 0.6rem;
+  font-size: 0.85rem;
+  opacity: 0.85;
+}
+
+/* Listas */
+.knowledge-body ul,
+.knowledge-body ol {
+  margin-left: 1.2rem;
+  font-size: 0.9rem;
+  color: var(--silver-soft);
+}
+
+/* Animación */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* 📱 Responsive */
+@media (max-width: 600px) {
+  .knowledge-card {
+    padding: 1rem;
+  }
+
+  .topic-header h3 {
+    font-size: 1.1rem;
+    text-align: center;
+  }
+
+  .knowledge-card summary {
+    text-align: center;
+  }
+
+  .knowledge-body .notes {
+    text-align: center;
+  }
+
+  .knowledge-body ul,
+  .knowledge-body ol {
+    font-size: small;
+  }
+
+  .definition {
+    text-align: center;
+  }
+}

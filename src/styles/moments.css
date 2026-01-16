@@ -1,0 +1,61 @@
+section {
+  text-align: center;
+}
+
+.moments-grid {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.moment-card {
+  display: grid;
+  justify-content: center;
+  place-items: center;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 1rem;
+  border-radius: 16px;
+  border: 1px solid #1e1e1e;
+  width: 380px;
+}
+
+.moment-card h3 {
+  text-align: center;
+  font-family: inherit;
+  font-weight: 400;
+}
+
+.moment-card p {
+  font-size: 0.9rem;
+  margin-top: 10px;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .moments-grid {
+    width: 310px;
+    gap: 1rem;
+  }
+
+  .moment-card {
+    width: 320px;
+    padding: 20px 20px;
+  }
+
+  section {
+    display: grid;
+    place-items: center;
+    text-align: center;
+  }
+
+  section h2 {
+    text-align: center;
+  }
+
+  section p {
+    font-size: small;
+    margin-top: 8px;
+    text-align: center;
+  }
+}

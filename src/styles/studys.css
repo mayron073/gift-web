@@ -1,0 +1,161 @@
+.study {
+  max-width: 1200px;
+  margin: auto;
+  padding: 2rem 1rem 4rem;
+}
+
+.study-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.study-header h2 {
+  font-weight: 400;
+}
+
+.study-header p {
+  margin-top: 0.5rem;
+  opacity: 0.7;
+  font-style: italic;
+}
+
+/* Separación natural entre bloques */
+.study > * {
+  margin-bottom: 1rem;
+}
+
+
+.calculator-card {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 1.5rem;
+  border-radius: 20px;
+  margin-bottom: 3rem;
+  border: 1px solid #2a2a2a;
+  width: 450px;
+}
+
+.calculator-card header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.calculator-card h3 {
+  font-size: 1.2rem;
+}
+
+.calculator-card button {
+  background: transparent;
+  color: #cfcfcf;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.calculator-content {
+  display: grid;
+  place-items: center;
+}
+
+.calculator-content label {
+  display: block;
+  margin-top: 1rem;
+}
+
+.calculator-content input {
+  width: 90%;
+  padding: 0.7rem 0.9rem;
+  background: #0f0f0f;
+  color: #e5e5e5;
+  border: 1px solid #444;
+  border-radius: 10px;
+  font-size: 0.95rem;
+  transition: border 0.3s, box-shadow 0.3s;
+}
+
+.calculator-content input:hover,
+.calculator-content input:focus {
+  border-color: #c0c0c0;
+  box-shadow: 0 0 6px rgba(192, 192, 192, 0.35);
+  outline: none;
+}
+
+.calculator-center {
+  display: grid;
+  place-items: center;
+}
+
+.power-group {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+/* INPUT POTENCIA */
+.power-group input {
+  flex: 1;
+  padding: 0.7rem 0.9rem;
+  background: #0f0f0f;
+  color: #e5e5e5;
+  border: 1px solid #444;
+  border-radius: 10px;
+  font-size: 0.95rem;
+  transition: border 0.3s, box-shadow 0.3s;
+}
+
+.power-group input::placeholder {
+  color: #777;
+}
+
+.power-group input:focus {
+  outline: none;
+  border-color: #c0c0c0;
+  box-shadow: 0 0 6px rgba(192, 192, 192, 0.4);
+}
+
+/* SELECT UNIDAD */
+.power-group select {
+  width: 80px;
+  padding: 0.7rem 0.6rem;
+  background: linear-gradient(145deg, #1a1a1a, #0d0d0d);
+  color: #f0f0f0;
+  border: 1px solid #555;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* hover y focus */
+.power-group select:hover,
+.power-group select:focus {
+  border-color: #c0c0c0;
+  box-shadow: 0 0 6px rgba(192, 192, 192, 0.35);
+  outline: none;
+}
+
+/* Opciones */
+.power-group select option {
+  background: #111;
+  color: #eaeaea;
+}
+
+
+
+@media (max-width: 600px) {
+  .calculator-card {
+    width: 300px;
+    text-align: center;
+  }
+
+  section {
+    padding: 20px 20px;
+  }
+
+  .power-group select {
+    width: 65px;
+    font-size: 0.85rem;
+  }
+
+}

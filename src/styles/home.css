@@ -1,0 +1,37 @@
+
+.home {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center; /* horizontal */
+    align-items: center;
+}
+
+.home h1 {
+    color: var(--silver);
+    font-family: inherit;
+}
+
+.home img {
+    margin-top: 20px;
+    width: 400px;
+    margin-left: 10%;
+}
+
+.home p {
+    font-style: italic;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .home {
+        margin-top: 10px;
+        display: grid;
+        place-items: center;
+        text-align: center;
+    }
+
+    .home img {
+        width: 270px;
+        margin-left: 0;
+    }
+}
