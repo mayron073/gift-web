@@ -11,7 +11,7 @@
   background-attachment: fixed;
 
   /* oscurecer un poco para mejor lectura */
-  filter: brightness(0.5);
+  filter: brightness(0.8);
 }
 
 @media (max-width: 768px) {
