@@ -16,7 +16,7 @@ export default function App() {
   return (
       <div className="viewport">
       <Background image={bg} />
-      <div className="overlay" />
+      {/*<div className="overlay" />*/}
 
       <div className="app">
         <Navbar />
