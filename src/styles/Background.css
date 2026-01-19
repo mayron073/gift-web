@@ -9,6 +9,8 @@
 
   /* oscurecer un poco para mejor lectura */
   filter: brightness(0.8);
+
+  transform: translateZ(0);
 }
 
 

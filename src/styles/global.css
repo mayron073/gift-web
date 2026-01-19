@@ -16,6 +16,13 @@ body {
   color: var(--silver);
   font-family: 'Inter', sans-serif;
   line-height: 1.6;
+  height: 100vh;
+}
+
+main {
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 h1, h2 {
