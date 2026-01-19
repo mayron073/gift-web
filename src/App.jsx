@@ -7,6 +7,8 @@ import Checklist from "./pages/Checklist"
 import Quotes from "./pages/Quotes"
 import Navbar from "./components/Navbar"
 import { useChecklist } from "./hooks/useChecklist.js"
+import Background from "./components/Background.jsx";
+import bg from "/AyC.jpg";
 
 export default function App() {
   const checklist = useChecklist()
@@ -14,6 +16,7 @@ export default function App() {
   return (
     <>
       <Navbar />
+      <Background image={bg} />
       <main>
         <Routes>
           <Route path="/" element={<Home />} />

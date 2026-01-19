@@ -5,7 +5,7 @@ import bg from "/AyC.jpg";
 export default function Quotes() {
   return (
     <>
-    <Background image={bg} />
+    {/*<Background image={bg} />*/}
     <BiblicalQuotes/>
     </>
   )

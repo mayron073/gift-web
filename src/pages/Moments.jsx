@@ -6,7 +6,7 @@ import bg from "/AyC.jpg";
 export default function Moments() {
   return (
     <>
-    <Background image={bg} />
+    {/*<Background image={bg} />*/}
     <section>
       <h2>Reminisencias para la eternidad</h2>
       <div className="moments-grid">

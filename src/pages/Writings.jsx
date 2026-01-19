@@ -10,7 +10,7 @@ export default function Writings() {
 
   return (
     <>
-    <Background image={bg} />
+    {/*<Background image={bg} />*/}
     <section className="writings-section">
       <h2>Inspirados en una belleza poderosa</h2>
       {activeId && (

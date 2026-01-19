@@ -8,7 +8,7 @@ import "../styles/studys.css"
 export default function Study() {
   return (
     <>
-    <Background image={bg} />
+    {/*<Background image={bg} />*/}
     <section className="study">
       
       {/* Encabezado */}

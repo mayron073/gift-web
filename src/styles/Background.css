@@ -7,16 +7,8 @@
   background-position: center;
   background-repeat: no-repeat;
 
-  /* ESTA ES LA CLAVE */
-  background-attachment: fixed;
-
   /* oscurecer un poco para mejor lectura */
   filter: brightness(0.8);
 }
 
-@media (max-width: 768px) {
-  .background-layer {
-    background-attachment: scroll;
-  }
-}
 

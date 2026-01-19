@@ -54,7 +54,7 @@ export const exercisesBank = {
           a: "25"
         },
         {
-          q: "¿Qué instrumento se usa para medir la resistencia de puesta a tierra?",
+          q: "¿Qué instrumento se usa para medir la resistividad del suelo?",
           a: "telurometro"
         },
         {
@@ -77,7 +77,7 @@ export const exercisesBank = {
         // Factor de potencia
         {
           q: "¿Cuál es el valor mínimo recomendado del factor de potencia?",
-          a: "0.9"
+          a: "0.95"
         },
 
         // Niveles de tensión (RETIE)
@@ -107,10 +107,6 @@ export const exercisesBank = {
         },
 
         // Sistemas eléctricos
-        {
-          q: "¿Qué sistema de puesta a tierra es más común en viviendas?",
-          a: "tt"
-        },
         {
           q: "¿Cuál es la frecuencia del sistema eléctrico en Colombia?",
           a: "60"

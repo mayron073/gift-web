@@ -19,7 +19,7 @@ export default function Checklist({
 
   return (
     <>
-    <Background image= {bg} />
+    {/*<Background image={bg} />*/}
     <section className="checklist">
       <h2>Checklist</h2>
 

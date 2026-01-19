@@ -6,7 +6,7 @@ import bg from "/AyC.jpg";
 export default function Home() {
   return (
     <>
-    <Background image={bg} />
+    {/*<Background image={bg} />*/}
     <section className="home">
       <div>
         <h1>Este espacio es para ti</h1>

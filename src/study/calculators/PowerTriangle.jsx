@@ -19,7 +19,7 @@ export default function PowerTriangle() {
         <>
           <p>Potencia aparente S: <strong>{s} VA</strong></p>
           <p>Potencia reactiva Q: <strong>{q} VAR</strong></p>
-          <p>FP = {fp} - Se exige ≥ 0.9</p>
+          <p>FP = {fp} - Se exige ≥ 0.95</p>
         </>
       )}
     </>
