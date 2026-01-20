@@ -4,6 +4,7 @@
     display: flex;
     justify-content: center; /* horizontal */
     align-items: center;
+    animation: fadeIn 0.5s ease;
 }
 
 .home h1 {
@@ -15,12 +16,24 @@
     margin-top: 20px;
     width: 400px;
     margin-left: 10%;
+    filter: brightness(80%);
 }
 
 .home p {
     font-style: italic;
     text-align: center;
     color: var(--silver);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    y: 0;
+  }
+  to {
+    opacity: 1;
+    y: 1;
+  }
 }
 
 @media (max-width: 600px) {
