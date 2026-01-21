@@ -77,20 +77,20 @@
   bottom: 1rem;
   right: 1.2rem;
   font-size: 0.85rem;
-  color: #c0c0c0;
+  color: var(--silver);
   opacity: 0.98;
 }
 
 .writing-card.active {
   position: fixed;
-  top: 50%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%) scale(1.02);
   background: rgba(0, 0, 0, 1);
 
   width: min(90vw, 520px);
   height: auto;
-  max-height: 80vh;
+  max-height: 470px;
 
   z-index: 10;
 
@@ -102,7 +102,7 @@
 .writing-card.active .writing-text {
   -webkit-line-clamp: unset;
   overflow-y: auto;
-  max-height: 60vh;
+  max-height: 50vh;
   padding-right: 0.4rem;
   line-height: 1.7;
 }
@@ -149,7 +149,7 @@
 }
 
 .writing-card.active .writing-text {
-  margin-bottom: 2.4rem; /* separa claramente del botón */
+  margin-bottom: 2.5rem; /* separa claramente del botón */
 }
 
 .writing-card.active .favorite-btn {
@@ -185,12 +185,12 @@
 
 @media (max-width: 600px) {
   .writing-card.active {
-    width: 320px;
+    width: 310px;
   }
 
   .writings-section {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
   }
 }
 
