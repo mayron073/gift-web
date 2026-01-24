@@ -34,8 +34,7 @@
 
 /* Tarjeta */
 .knowledge-card {
-  background: rgba(0, 0, 0, 0.65);
-  backdrop-filter: blur(5px);
+  background: rgba(0, 0, 0, 0.75);
   border-radius: 18px;
   padding: 1rem 1.5rem;
   margin-bottom: 1rem;

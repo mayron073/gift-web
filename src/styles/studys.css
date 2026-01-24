@@ -27,8 +27,7 @@
 
 
 .calculator-card {
-  background: rgba(0, 0, 0, 0.65);
-  backdrop-filter: blur(5px);
+  background: rgba(0, 0, 0, 0.75);
   padding: 1.5rem;
   border-radius: 20px;
   margin-bottom: 3rem;
