@@ -6,7 +6,7 @@ export default function Navbar() {
     <nav className="nav">
       <Link to="/">Inicio</Link>
       <Link to="/momentos">Momentos</Link>
-      <Link to="/escritos">Por ti</Link>
+      <Link to="/escritos">Escritos</Link>
       <Link to="/estudio">Estudios</Link>
       <Link to="/checklist">Checklist</Link>
       <Link to="/citas">Citas biblicas</Link>

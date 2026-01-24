@@ -30,7 +30,8 @@
 }
 
 .writing-card {
-  background: rgba(0, 0, 0, 0.75);
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(5px);
   border: 1px solid #2e2e2e;
   border-radius: 16px;
   padding: 1.2rem;
@@ -86,7 +87,7 @@
   top: 55%;
   left: 50%;
   transform: translate(-50%, -50%) scale(1.02);
-  background: rgba(0, 0, 0, 1);
+  background: rgba(11, 11, 11, 0.9);
 
   width: min(90vw, 520px);
   height: auto;
