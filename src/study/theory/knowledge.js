@@ -32,6 +32,7 @@ export const knowledge = [
           "En sistemas AC se debe considerar el factor de potencia para cálculos reales.",
         formulas: [
           "DC: P = V × I",
+          "Ley de ohm: p = I² × R -- P = V²/R",
           "AC monofásico: P = V × I × cosφ",
           "AC trifásico: P = √3 × V × I × cosφ"
         ],
@@ -186,6 +187,7 @@ export const knowledge = [
           "Clasificación según uso y conexión.",
         types: [
           "Potencia",
+          "Potencial",
           "Distribución",
           "Aislamiento",
           "TC y TP"
@@ -326,16 +328,39 @@ export const knowledge = [
     icon: "📐",
     sections: [
       {
-        name: "Potencias en AC",
-        definition:
-          "Relación entre potencia activa, reactiva y aparente.",
-        formulas: [
-          "S² = P² + Q²",
-          "cosφ = P / S",
-          "Q = tanφ × P"
-        ],
+        name: "Factor de potencia (FP)",
+        explanation: ["Formulas:"],
+        formulas: ["FP = cos(φ) = P / S​", "φ = arccos(FP)"],
         notes:
           "Base para análisis energético y corrección del factor de potencia."
+      },
+      {
+        name: "Monofasica (AC 1Φ)",
+        explanation: ["Formulas:"],
+        formulas: [
+          "Relacion entre potencias: S² = P² + Q²",
+          "S = V × I", "P = V × I × cos(φ)", 
+          "Q = V × I × sin(φ)"],
+        
+      },
+      {
+        name: "Trifásica (AC 3Φ)",
+        explanation: ["Formulas:"],
+        formulas: [
+          "S = √3 × V(rms) × I(rms) ",
+          "P = √3 × V(rms) × I(rms) × cos(φ)",
+          "Q = √3 × V(rms) × I(rms) × sin(φ)",
+        ],
+      },
+      {
+        name: "Otras formulas",
+        explanation: ["Formulas:"],
+        formulas: [
+          "Q= S × sin(φ)",
+          "Q = tanφ × P",
+          "P = S × cos(φ)",
+          "S = P / cos(φ)"
+        ],
       }
     ]
   },
@@ -364,7 +389,7 @@ export const knowledge = [
           "Qc = QL - Q"
         ],
         notes:
-          "No se deberia corregir cosφ < 0,9."
+          "No se deberia corregir cosφ > 0,9."
       },
       {
         name: "Cálculo del capacitor",
