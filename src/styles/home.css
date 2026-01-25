@@ -17,6 +17,7 @@
     width: 400px;
     margin-left: 10%;
     filter: brightness(80%);
+    border-radius: 15px;
 }
 
 .home p {

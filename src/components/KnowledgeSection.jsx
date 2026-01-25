@@ -4,7 +4,7 @@ import "../styles/KnowledgeSection.css";
 export default function KnowledgeSection() {
   return (
     <section className="knowledge">
-      <h2>Base de conocimiento 📖​</h2>
+      <h2>Base de conocimiento​</h2>
 
       {knowledge.map((topic) => (
         <article key={topic.id} className="knowledge-topic">

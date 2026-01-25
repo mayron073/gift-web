@@ -13,7 +13,7 @@ export default function Moments() {
         {moments.map(m => (
         <div key={m.id} className="moment-card">
           <h3>{m.title}</h3>
-          <img src={m.image} alt={m.title} />
+          <img src={m.image} alt={m.title} className="img-card"/>
           <p>{m.description}</p>
         </div>
       ))}

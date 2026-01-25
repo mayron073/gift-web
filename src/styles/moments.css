@@ -33,6 +33,11 @@
   text-align: center;
 }
 
+.img-card {
+  max-width: 90%;
+  border-radius: 12px;
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;

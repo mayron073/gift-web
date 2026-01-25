@@ -14,7 +14,7 @@
 .lab-actions button {
   border-radius: 10px;
   padding: 0.6rem 1.5rem;
-  background: linear-gradient(135deg, #aaa, #666);
+  background: linear-gradient(135deg, #b4b4b4, #3b3b3b);
   border: none;
   cursor: pointer;
 }

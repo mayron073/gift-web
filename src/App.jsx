@@ -9,13 +9,14 @@ import Navbar from "./components/Navbar"
 import { useChecklist } from "./hooks/useChecklist.js"
 import Background from "./components/Background.jsx";
 import bg from "/AyC.jpg";
+import bgv from "/AyC-v.jpg";
 
 export default function App() {
   const checklist = useChecklist()
 
   return (
       <div className="viewport">
-      <Background image={bg} />
+      <Background bg={bg} bgv={bgv}/>
       {/*<div className="overlay" />*/}
 
       <div className="app">

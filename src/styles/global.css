@@ -84,10 +84,7 @@ p {
   margin-bottom: 1rem;
 }
 
-img {
-  max-width: 90%;
-  border-radius: 12px;
-}
+
 
 @media (max-width: 600px) {
   h1 {
