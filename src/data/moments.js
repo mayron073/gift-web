@@ -35,7 +35,7 @@ import img34 from "../assets/22nov25.jpg";
 import img35 from "../assets/8dic25.jpg";
 import img36 from "../assets/13dic25.jpg";
 import img37 from "../assets/imgtu.jpg";
-import img38 from "../assets/imgH.jpg";
+import img38 from "../assets/pilares-carina.jpg";
 
 export const moments = [
   {
@@ -262,8 +262,8 @@ export const moments = [
   },
   {
     id: 38,
-    title: "Feliz cumpleaños",
+    title: "🤗Feliz cumpleaños​​🎉",
     image: img38,
-    description: "🤗​🫂​☺️​🎉​​"
+    description: "​Pilares de la nebulosa carina (2 febrero 2010)​"
   },
 ]
