@@ -33,19 +33,28 @@
 .exercise-card {
   margin-top: 2rem;
   padding: 2rem;
-  background: rgba(0,0,0,0.65);
+  background: rgba(0,0,0,0.75);
   border-radius: 20px;
+  border: 1px solid #2a2a2a;
   animation: fadeIn 0.4s ease;
 }
 
 .exercise-card input {
   padding: 0.5rem;
-  background: #000;
-  border: 1px solid #333;
-  color: #cfcfcf;
+  background: #0f0f0f;
+  border: 1px solid #444;
+  color: #e5e5e5;
   border-radius: 8px;
   width: 60%;
   margin-right: 15px;
+  transition: border 0.3s, box-shadow 0.3s;
+}
+
+.exercise-card input:hover,
+.exercise-card input:focus {
+  border-color: #c0c0c0;
+  box-shadow: 0 0 6px rgba(192, 192, 192, 0.35);
+  outline: none;
 }
 
 .ok {
