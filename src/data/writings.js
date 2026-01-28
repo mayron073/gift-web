@@ -2,7 +2,7 @@ export const writings = [
   {
     id: 1,
     title: "La singularidad de tus ojos 🪐",
-    text: "Tus ojos café tienen la profundidad de un agujero negro, absorben toda la atencion y hacen que uno se quede atrapado sin querer salir. Tus pestañas tan perfectamente curvadas, parecen formadas por la misma simetria de los anillos de saturno."
+    text: "Tus ojos café tienen la profundidad de un agujero negro, absorben toda la atencion y hacen que uno se quede atrapado sin querer salir. \nTus pestañas tan perfectamente curvadas, parecen formadas por la misma simetria de los anillos de saturno."
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ export const writings = [
   {
     id: 4,
     title: "Así 👽​💫​",
-    text: "Hoy y por mucho tiempo, así como Tesla y la electricidad, así como Sheldon y la fisica teoríca, así como Leonard y Penny, así como tu sonrisa y mi sonrisa, así como tus ojos vistos de la claridad de una ventana, así como un cuerpo que parpadea emociones como si cada una formara parte de un caleidoscopio, crea un vórtice de entropía conmigo, hoy y por mucho tiempo más."
+    text: "Hoy y por mucho tiempo, así como Tesla y la electricidad, así como Sheldon y la fisica teoríca, así como Leonard y Penny, así como tu sonrisa y mi sonrisa, así como tus ojos vistos desde la claridad de una ventana, así como un cuerpo que parpadea emociones como si cada una formara parte de un caleidoscopio, crea un vórtice de entropía conmigo, hoy y por mucho tiempo más."
   },
   {
     id: 5,
@@ -52,7 +52,7 @@ export const writings = [
   {
     id: 11,
     title: "Vestigios de ver tu cuerpo ​🥹​🙈​",
-    text: "Si te imaginara desnuda, no seria ninguna aberración sexual, seria inocente como un bebé. Respetaria tu imagen con lágrimas, como la obra de arte más hermosa y pulcra que haya visto. Admirando la belleza de tus pechos aventureros. Sorprendido por tus curvas inspiradoras. La magia que me provoca tu abdomen y la silueta de tus costillas llamando mi atención. Tus lunares modelando, anhelando mis halagos, con un orgullo tan propio que los hace destacar incluso en las fotos más oscuras.\n Es tu belleza la que me saca estas palabras\n Tus ojos mi condena perpetua a mirarlos\n Tus labios mi delirio\n Y tus manos bajo las mías, mi ego descontrolado."
+    text: "Si te imaginara desnuda, no seria ninguna aberración sexual, seria inocente como un bebé. Respetaria tu imagen con lágrimas, como la obra de arte más hermosa y pulcra que haya visto, admirando la belleza de tus pechos aventureros, sorprendido por tus curvas inspiradoras, la magia que me provoca tu abdomen y la silueta de tus costillas llamando mi atención, tus lunares modelando, anhelando mis halagos, con un orgullo tan propio que los hace destacar incluso en las fotos más oscuras.\n Es tu belleza la que me saca estas palabras\n Tus ojos mi condena perpetua a mirarlos\n Tus labios mi delirio\n Y tus manos bajo las mías, mi ego descontrolado."
   },
   {
     id: 12,
