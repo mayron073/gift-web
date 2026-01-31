@@ -48,7 +48,7 @@ export const moments = [
     id: 2,
     title: "30/Agosto/2024",
     image: img2,
-    description: "Sacame una foto, pero que se vea la señora de atrás 💃​💅​"
+    description: '"Sácame una foto, pero que se vea la señora de atrás" 💃​💅​'
   },
   {
     id: 3,
@@ -78,7 +78,7 @@ export const moments = [
     id: 7,
     title: "21/Diciembre/2024",
     image: img7,
-    description: "Futbol a 4:00pm, ¿Que podria salir mal? ​​😬​🤕​"
+    description: "Futbol a 4:00pm, ¿Que podría salir mal? ​​😬​🤕​"
   },
   {
     id: 8,
@@ -150,7 +150,7 @@ export const moments = [
     id: 19,
     title: "2/Junio/2025",
     image: img19,
-    description: "🫦​Pose! Pose! Pose!​💃​🕺​​"
+    description: "🫦¡Pose! ¡Pose! ¡Pose!​💃​🕺​​"
   },
   {
     id: 24,
@@ -198,7 +198,7 @@ export const moments = [
     id: 27,
     title: "20/Septiembre/2025",
     image: img27,
-    description: "🌅​Verte bajo el ocaso deberia ser una de las maravillas del mundo ​​🥹​🌹​​"
+    description: "🌅Verte bajo el ocaso debería ser una de las maravillas del mundo ​​🥹​🌹​​"
   },
   {
     id: 28,
@@ -220,7 +220,7 @@ export const moments = [
   },
   {
     id: 30,
-    title: "URRAAA... ERES INCREIBLE LINDA",
+    title: "URRAAA... ERES INCREÍBLE LINDA",
     image: img30,
     description: "​​🎉​FELICITACIONES POR TU INVERSÓN MÁS GRANDE​​🎉​​"
   },
@@ -228,7 +228,7 @@ export const moments = [
     id: 31,
     title: "19/Noviembre/2025",
     image: img31,
-    description: "Golpea fuerte!!!​🥊​😉​​"
+    description: "¡¡¡Golpea fuerte!!!🥊😉​​"
   },
   {
     id: 33,
@@ -238,7 +238,7 @@ export const moments = [
   },
   {
     id: 34,
-    title: "Eres una artista increible",
+    title: "Eres una artista increíble",
     image: img34,
     description: "Catarsis en un plato desechable 😁​🥹​🎨​🖌️​​"
   },
@@ -252,7 +252,7 @@ export const moments = [
     id: 36,
     title: "13/Diciembre/2025",
     image: img36,
-  description: "¿Cuantas flores te di es día?\n (irradiabas como un faro en la noche más oscura)🥹​​"
+  description: "¿Cuántas flores te di es día? \n (irradiabas como un faro en la noche más oscura 🥹)​​"
   },
   {
     id: 37,
@@ -264,6 +264,6 @@ export const moments = [
     id: 38,
     title: "🤗Feliz cumpleaños​​🎉",
     image: img38,
-    description: "​Pilares de la nebulosa carina (2 febrero 2010)​"
+    description: "​Pilares de la nebulosa Carina (2 febrero 2010)​"
   },
 ]

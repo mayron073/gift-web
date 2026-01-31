@@ -9,7 +9,7 @@ export default function Navbar() {
       <Link to="/escritos">Escritos</Link>
       <Link to="/estudio">Estudios</Link>
       <Link to="/checklist">Checklist</Link>
-      <Link to="/citas">Citas biblicas</Link>
+      <Link to="/citas">Citas bíblicas</Link>
     </nav>
   )
 }
