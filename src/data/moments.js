@@ -222,7 +222,7 @@ export const moments = [
     id: 30,
     title: "URRAAA... ERES INCREÍBLE LINDA",
     image: img30,
-    description: "​​🎉​FELICITACIONES POR TU INVERSÓN MÁS GRANDE​​🎉​​"
+    description: "​​🎉​FELICITACIONES POR TU INVERSIÓN MÁS GRANDE​​🎉​​"
   },
   {
     id: 31,
