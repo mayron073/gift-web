@@ -11,10 +11,10 @@ export default function Home() {
       <div>
         <h1>Este espacio es para ti</h1>
         <p>
-          Tu fuego es sempiterno <br />
-          Tu belleza inmarcesible <br />
-          Tu carisma, un deleite <br />
-          Tu esencia indeleble 
+          Tu fuego es sempiterno. <br />
+          Tu belleza inmarcesible. <br />
+          Tu carisma, un deleite. <br />
+          Tu esencia indeleble.
         </p>       
       </div>
     
