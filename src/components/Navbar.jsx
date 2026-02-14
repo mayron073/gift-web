@@ -10,6 +10,10 @@ export default function Navbar() {
       <Link to="/estudio">Estudios</Link>
       <Link to="/checklist">Checklist</Link>
       <Link to="/citas">Citas bíblicas</Link>
+      <Link to="/propuesta">
+        Propuesta 💍
+      </Link>
+
     </nav>
   )
 }

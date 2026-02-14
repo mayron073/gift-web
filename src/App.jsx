@@ -6,6 +6,8 @@ import Study from "./pages/Study"
 import Checklist from "./pages/Checklist"
 import Quotes from "./pages/Quotes"
 import Navbar from "./components/Navbar"
+import Proposal from "./pages/Proposal"
+
 import { useChecklist } from "./hooks/useChecklist.js"
 import Background from "./components/Background.jsx";
 import bg from "/AyC.jpg";
@@ -33,6 +35,7 @@ export default function App() {
             element={<Checklist {...checklist} />}
           />
             <Route path="/citas" element={<Quotes />} />
+            <Route path="/propuesta" element={<Proposal />} />
           </Routes>
         </div>
       </div>
