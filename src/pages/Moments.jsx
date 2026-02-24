@@ -1,7 +1,5 @@
 import { moments } from "../data/moments"
 import "../styles/moments.css"
-import Background from "../components/Background.jsx"
-import bg from "/AyC.jpg";
 
 export default function Moments() {
   return (

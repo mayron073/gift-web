@@ -1,0 +1,247 @@
+.determination-section {
+  min-height: 100vh;
+
+  display: flex;              
+  justify-content: center;    
+  align-items: center;
+
+  padding-top: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.determination-wrapper {
+
+  width: 100%;
+  max-width: 720px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+
+}
+
+.determination-container {
+
+  width: 100%;
+  max-width: 720px;
+  margin-bottom: 40px;
+
+}
+
+
+/* TÍTULO */
+
+.determination-title {
+
+  font-weight: 400;
+  font-size: clamp(1.8rem, 3vw, 2.4rem);
+  color: var(--silver);
+  margin-bottom: 40px;
+  letter-spacing: 0.04em;
+
+}
+
+
+/* TEXTO */
+
+.determination-text {
+
+  font-style: italic;
+  font-size: clamp(1rem, 1.2vw, 1.15rem);
+  line-height: 1.9;
+  color: var(--silver-soft);
+
+}
+
+
+/* PÁRRAFOS */
+
+.determination-text p {
+  margin-bottom: 28px;
+}
+
+
+/* FRASE FINAL */
+
+.determination-closing {
+  margin-top: 40px;
+  font-size: clamp(1.1rem, 1.3vw, 1.25rem);
+  color: var(--silver);
+}
+
+
+/* MEJOR LEGIBILIDAD SOBRE FONDO */
+
+.determination-container {
+  background: rgba(0, 0, 0, 0.35);
+  padding: 40px;
+  border-radius: 16px;
+  backdrop-filter: blur(6px);
+  border: 1px solid rgba(255,255,255,0.05);
+
+}
+
+.determination-images {
+
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+}
+
+.manga-top {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.manga-bottom {
+  display: flex;
+  justify-content: center;
+}
+
+.img {
+
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 12px;
+  filter: brightness(0.85);
+  transition: 0.3s ease;
+}
+
+.img:hover {
+  filter: brightness(1);
+  transform: scale(1.02);
+}
+
+.img-us {
+  width: 90%;
+}
+
+/* TARJETA MUSICAL */
+
+.music-card {
+  margin-top: 60px;
+  padding: 20px;
+  border-radius: 16px;
+  background: rgba(0,0,0,0.45);
+  border: 1px solid rgba(255,255,255,0.08);
+  backdrop-filter: blur(6px);
+}
+
+
+.music-title {
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: var(--silver);
+  margin-bottom: 16px;
+}
+
+
+/* CONTROLES */
+
+.music-controls {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+
+/* BOTÓN */
+
+.play-btn {
+
+  width: 42px;
+  height: 42px;
+
+  border-radius: 50%;
+  border: 1px solid rgba(255,255,255,0.2);
+  background: transparent;
+  color: var(--silver);
+  font-size: 16px;
+  cursor: pointer;
+
+  transition: all 0.3s ease;
+}
+
+.play-btn:hover {
+  background: rgba(255,255,255,0.08);
+  transform: scale(1.08);
+}
+
+
+/* BARRA */
+
+.progress-bar {
+  flex: 1;
+  height: 4px;
+  appearance: none;
+  background: rgba(255,255,255,0.15);
+  border-radius: 4px;
+  outline: none;
+}
+
+.progress-bar::-webkit-slider-thumb {
+  appearance: none;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--silver);
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+
+  .manga-top {
+    grid-template-columns: 1fr;
+  }
+
+  .img {
+    height: 240px;
+  }
+
+  .img-us {
+    width: 100%;
+  }
+
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width: 900px) {
+
+  .determination-section {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
+}
+
+
+@media (max-width: 600px) {
+
+  .determination-section {
+    padding-left: 28px;
+    padding-right: 28px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .determination-container {
+    padding: 28px;
+  }
+
+}
+ .determination-title::after {
+
+  content: "";
+  display: block;
+  width: 100px;
+  height: 1px;
+  background: rgba(255,255,255,0.2);
+  margin-top: 12px;
+
+}

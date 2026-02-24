@@ -7,6 +7,7 @@ import Checklist from "./pages/Checklist"
 import Quotes from "./pages/Quotes"
 import Navbar from "./components/Navbar"
 import Proposal from "./pages/Proposal"
+import Determination from "./pages/Determination.jsx";
 
 import { useChecklist } from "./hooks/useChecklist.js"
 import Background from "./components/Background.jsx";
@@ -36,6 +37,7 @@ export default function App() {
           />
             <Route path="/citas" element={<Quotes />} />
             <Route path="/propuesta" element={<Proposal />} />
+            <Route path="/ánimos" element={<Determination/>} />
           </Routes>
         </div>
       </div>

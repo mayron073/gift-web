@@ -47,7 +47,7 @@ export default function Proposal() {
               Raiza Jocabeth,
               {"\n"}
               desde que estás en mi vida, tu presencia se ha sentido como un lugar seguro.
-              {"\n"}
+              {"\n\n"}
               Admiro tu belleza con los ojos de un bebé encariñado.
               Aprendo de tu fuerza y libertad al hablar.
               Disfruto escucharte (me entró arena en los ojos), tomarte de la mano, besarte,
@@ -56,10 +56,10 @@ export default function Proposal() {
               sentir cómo la piel se me eriza cuando me explicas cosas.
               {"\n"}
               Disfruto darte amor.
-              {"\n"}
+              {"\n\n"}
               Soy mejor persona gracias a ti,
               y prometo ser fiel a las consecuencias que tu ser provoca en el mío.
-              {"\n"}
+              {"\n\n"}
               Te escucharé.
               No intentaré arreglarte.
               Prometo estar.
@@ -67,22 +67,17 @@ export default function Proposal() {
               {"\n"}
               Porque hemos pasado por tanto…
               y tanto…
-              que somos los más imperfectos,
-              {"\n"}
-              pero somos perfectos el uno para el otro.
+              que somos los más imperfectos, pero somos perfectos el uno para el otro.
               {"\n"}
               Hasta ahora,
-              y por el tiempo que quieras estar junto a mí,
-              {"\n"}
-              prometo valorar y respetar todo lo que viene con el nombre
+              y por el tiempo que quieras estar junto a mí, prometo valorar y respetar todo lo que viene con el nombre;
               {"\n"}
               <strong>RAIZA JOCABETH ARRIETA PEREZ.</strong>
-              {"\n"}
-              Cásate conmigo, luz de mis ojos.
+              {"\n\n"}
+              <strong>Cásate conmigo, luz de mis ojos ❤️🌹.</strong>
               {"\n"}
               (nuevamente)
             </p>
-
 
             {/* BOTÓN visible solo si NO ha aceptado */}
             {!accepted && active && (
@@ -101,7 +96,7 @@ export default function Proposal() {
             {accepted && (
 
               <div className="proposal-response">
-                Comenzaré a negociar el número de vacas y terneros con tu mamá 🐄✨
+                Comenzaré a negociar el número de vacas y terneros con tu mamá
               </div>
 
             )}

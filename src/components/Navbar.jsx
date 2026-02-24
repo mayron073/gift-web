@@ -13,6 +13,7 @@ export default function Navbar() {
       <Link to="/propuesta">
         Propuesta 💍
       </Link>
+      <Link to="/ánimos">Ánimos</Link>
 
     </nav>
   )
